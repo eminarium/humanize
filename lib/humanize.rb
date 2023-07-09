@@ -36,6 +36,8 @@ module Humanize
       [Humanize::Th, EMPTY]
     when :tr
       [Humanize::Tr, SPACE]
+    when :tm
+      [Humanize::Tm, SPACE]
     when :jp
       [Humanize::Jp, EMPTY]
     else
